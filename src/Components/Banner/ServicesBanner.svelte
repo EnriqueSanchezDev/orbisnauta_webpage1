@@ -35,13 +35,13 @@
 
 
 
-<section id="servicesbanner" class="bg-light d-flex align-items-center">
+<section id="servicesbanner" class="bg-dark d-flex align-items-center">
     <div class="container-fluid">
 
         <div class="row section-body justify-content-center my-3">
 
             <div id="title-content-wrapper" class="col-md-7 col-lg-9">
-                <h1 class="main-text-main text-dark">
+                <h1 class="main-text-main text-light">
                   {HEADING}
                 </h1>
     
@@ -52,10 +52,10 @@
         <div class="row section-body justify-content-center">
 
           <div class="my-3 col-lg-6 col-xxl-4">
-            <h2 class="text-dark"> {SERVICES_HEADING_1} </h2>
+            <h2 class="text-light"> {SERVICES_HEADING_1} </h2>
 
             <div class="industry-prev-card__desc">
-              <ul class="industry-prev-card__list">
+              <ul class="industry-prev-card__list text-light">
                 <li> {SERVICES_TITLE_1_1} </li>
                 <li>  {SERVICES_TITLE_1_2}  </li>
                 <li>  {SERVICES_TITLE_1_3} </li>
@@ -66,11 +66,11 @@
           </div>
 
           <div class="container my-3 col-lg-6 col-xxl-4">
-            <h2 class="text-dark"> {SERVICES_HEADING_2} </h2>
+            <h2 class="text-light"> {SERVICES_HEADING_2} </h2>
 
             
             <div class="industry-prev-card__desc">
-              <ul class="industry-prev-card__list">
+              <ul class="industry-prev-card__list text-light">
                 <li> {SERVICES_TITLE_2_1} </li>
                 <li>  {SERVICES_TITLE_2_2}  </li>
                 <li>  {SERVICES_TITLE_2_3} </li>
@@ -81,10 +81,10 @@
 
           <div class ="container my-3 col-lg-6 col-xxl-4">
 
-            <h2 class="text-dark"> {SERVICES_HEADING_3} </h2>
+            <h2 class="text-light"> {SERVICES_HEADING_3} </h2>
 
             <div class="industry-prev-card__desc">
-              <ul class="industry-prev-card__list">
+              <ul class="industry-prev-card__list text-light">
                 <li> {SERVICES_TITLE_3_1} </li>
                 <li>  {SERVICES_TITLE_3_2}  </li>
                 <li>  {SERVICES_TITLE_3_3} </li>

@@ -13,7 +13,7 @@
       } = ctabannerData;
 </script>
 
-<section id="ctabanner" class="bg-secondary d-flex align-items-center">
+<section id="ctabanner" class="bg-primary d-flex align-items-center">
   <div class="container-fluid">
     <div class="row justify-content-center my-3">
 

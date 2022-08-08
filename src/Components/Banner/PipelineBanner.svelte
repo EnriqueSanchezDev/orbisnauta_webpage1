@@ -5,16 +5,16 @@
 </script>
     
 
-<section id="pipelinebanner" class="bg-dark d-flex align-items-center">
+<section id="pipelinebanner" class="bg-white d-flex align-items-center">
     <div class="container-fluid">
         <div class="row section-body justify-content-center my-3">
 
             <div id="title-content-wrapper" class="col-md-7 col-xl-9">
-                <h1 class="main-text-main text-light">
+                <h1 class="main-text-main text-dark">
                     {HEADING}
                 </h1>
     
-                <p class="main-text-post lead my-0 text-light ">
+                <p class="main-text-post lead my-0 text-dark ">
                    {DESCRIPTION}                
                 </p>
             </div>

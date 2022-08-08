@@ -42,7 +42,7 @@
 <footer>
   <section id="footer" class="bg-light d-flex align-items-center">
     <div class="container-lg">
-      <div class="row section-body justify-content-center my-3">
+      <div class="row section-body justify-content-center my-1">
         <p> - Copyright Ⓒ 2022 Orbisnauta - </p>
       </div>
     </div>
@@ -54,6 +54,7 @@
 
 p{
 text-align: center;
+margin:auto;
 }
 
 nav{

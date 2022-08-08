@@ -4,12 +4,14 @@
       const { PREHEADING, HEADING, DESCRIPTION_ONE, DESCRIPTION_TWO} = seobannerData;
 </script>
     
-<section id="seobanner" class="bg-light d-flex align-items-center">
+<section id="seobanner" class="bg-dark d-flex align-items-center">
     <div class="container-fluid">
         <div class="row justify-content-center">
 
             <div id="image-content-wrapper" class="col-md-6">
-                <img src="images/intro-image1.png" alt="" class="img-fluid" />
+                <div id="background-color-wrapper">
+                    <img src="images/intro-image1.png" alt="" class="img-fluid" />
+                </div>
             </div>
 
             <div id="text-content-wrapper" class="col-md-6">
@@ -18,11 +20,11 @@
                     {PREHEADING}
                 </p>
 
-                <h1 class="main-text-main text-dark">
+                <h1 class="main-text-main text-light">
                     {HEADING}
                 </h1>
     
-                <p class="main-text-post text-dark">
+                <p class="main-text-post text-light">
                     {DESCRIPTION_ONE}
                     <br>
                     {DESCRIPTION_TWO}
@@ -54,6 +56,20 @@
 
     #text-content-wrapper{
         align-self: center;
+    }
+
+    #image-content-wrapper{
+        margin: auto;
+        padding-right: 60px;
+    }
+
+    .justify-content-center{
+        /*background-color: black;*/
+
+    }
+
+    img{
+        
     }
 
 /* 5) ULTRA LARGE SIZE - ULTRA SCREENS >1921 */

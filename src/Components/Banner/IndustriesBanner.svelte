@@ -48,7 +48,7 @@
 
 </script>
 
-<section id="industriesbanner" class="bg-secondary d-flex align-items-center">
+<section id="industriesbanner" class="bg-primary d-flex align-items-center">
   <div class="container-fluid">
     <div class="row justify-content-center my-3">
 
@@ -70,7 +70,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              <i class="bi bi-clock"></i>
+              <i class="bi bi-headset-vr"></i>
               {INDUSTRY_1_TITLE}
             </h5>
             <!-- <p class="card-text">1 Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
@@ -91,7 +91,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              <i class="bi bi-clock"></i>
+              <i class="bi bi-cone-striped"></i>
               {INDUSTRY_2_TITLE}
             </h5>
              <!-- <p class="card-text">2 Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
@@ -112,7 +112,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              <i class="bi bi-clock"></i>
+              <i class="bi bi-palette-fill"></i>
               {INDUSTRY_3_TITLE}
             </h5>
             <!-- <p class="card-text">3 Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
@@ -134,7 +134,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              <i class="bi bi-clock"></i>
+              <i class="bi bi-lightbulb"></i>
               {INDUSTRY_4_TITLE}
             </h5>
              <!-- <p class="card-text">4 Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -155,7 +155,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              <i class="bi bi-clock"></i>
+              <i class="bi bi-heart-pulse-fill"></i>
               {INDUSTRY_5_TITLE}
             </h5>
               <!-- <p class="card-text">5 Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -176,7 +176,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              <i class="bi bi-clock"></i>
+              <i class="bi bi-building"></i>
               {INDUSTRY_6_TITLE}
             </h5>
             <!-- <p class="card-text">6 Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -203,6 +203,9 @@
 h1{
   font-weight: bold;
   text-align: center;
+  /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+  /*-webkit-text-stroke: 2px black;*/
+
 }
 
 p{
@@ -321,14 +324,18 @@ p{
     
   }*/
 
+  #title-content-wrapper{
+    text-align: center;
+
+  }
+
 
 /*INSIDE TEXT*/
 .main-text-main{
     font-size: 35px;
     line-height: 42px;
-    max-width: 480px;
-    margin-bottom: 10px;
 
+    margin-bottom: 10px;
 
 }
 

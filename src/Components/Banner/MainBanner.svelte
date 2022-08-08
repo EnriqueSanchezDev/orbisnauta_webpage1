@@ -10,7 +10,7 @@ export let mainbannerData_Esp = {};
 
 </script>
 
-  <section id="mainbanner" class="bg-dark d-flex align-items-center">
+  <section id="mainbanner" class="bg-light d-flex align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-center">
 
@@ -20,13 +20,13 @@ export let mainbannerData_Esp = {};
                     {PREHEADING}
                 </p>
 
-                <h1 class="main-text-main text-light">
+                <h1 class="main-text-main text-dark">
                     {HEADING_1}
                     <br>
                     {HEADING_2}
                 </h1>
     
-                <p class="main-text-post text-light">
+                <p class="main-text-post text-dark">
                     {DESCRIPTION_1}
                     <strong><u>{DESCRIPTION_2_STRONG}</u></strong>
                     {DESCRIPTION_3}
