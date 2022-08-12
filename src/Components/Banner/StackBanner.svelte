@@ -63,7 +63,7 @@
         
          <!--   1.  VR HEADSET   -->
 
-        <div class="card-container col-sm-6 col-xl-3">
+        <div class="card-container col-sm-6 col-xl-3 d-flex align-items-stretch">
           <div class="card">
             <div class="card-body text-center">
               <img src="images/stack-image-icon11.png" alt="" class="img-fluid icon-image" />
@@ -76,7 +76,7 @@
 
          <!--   2.  WEB/PC  -->
 
-        <div class="card-container col-sm-6 col-xl-3 ">
+        <div class="card-container col-sm-6 col-xl-3 d-flex align-items-stretch">
           <div class="card">
             <div class="card-body text-center">
               <img src="images/stack-image-icon12.png" alt="" class="img-fluid icon-image" />
@@ -89,7 +89,7 @@
 
          <!--   3.  MOBILE AR    -->
 
-        <div class="card-container col-sm-6 col-xl-3 ">
+        <div class="card-container col-sm-6 col-xl-3 d-flex align-items-stretch">
           <div class="card">
             <div class="card-body text-center">
               <img src="images/stack-image-icon13.png" alt="" class="img-fluid icon-image" />
@@ -102,7 +102,7 @@
 
          <!--   4.  MR HEADSETS    -->
 
-        <div class="card-container col-sm-6 col-xl-3 ">
+        <div class="card-container col-sm-6 col-xl-3 d-flex align-items-stretch">
           <div class="card">
             <div class="card-body text-center">
               <img src="images/stack-image-icon14.png" alt="" class="img-fluid icon-image" />
@@ -128,7 +128,7 @@
         <!--  1. UNITY   -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon21.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{SOFTWARE_HEADING_1}</h5>
@@ -139,7 +139,7 @@
         <!--  2.  UNREAL/BLUEPRINTS    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon22.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{SOFTWARE_HEADING_2}</h5> 
@@ -150,7 +150,7 @@
          <!--  3.  OCULUS SDK    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon23.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{SOFTWARE_HEADING_3}</h5>
@@ -161,7 +161,7 @@
          <!--  4.  STEAMVR   -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon24.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{SOFTWARE_HEADING_4}</h5>
@@ -172,10 +172,10 @@
          <!--  5.  AFRAME/BABYLONJS/THREEJS    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
-            <div class="card-body text-center">
+          <div class="card h-100">
+            <div class="card-body text-center ">
               <img src="images/stack-image-icon25.png" alt="" class="img-fluid icon-image" />
-              <h5 class="card-title">{SOFTWARE_HEADING_5}</h5>
+              <h5 class="card-title my-auto">{SOFTWARE_HEADING_5}</h5>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@
         <!--  6.  WEBXR/OPEN XR    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon26.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{SOFTWARE_HEADING_6}</h5>
@@ -194,7 +194,7 @@
         <!--   7. ARCORE / VUFORIA   -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon27.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{SOFTWARE_HEADING_7}</h5>
@@ -205,7 +205,7 @@
         <!--   8. ADOBE CREATIVE SUITE    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon28.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{SOFTWARE_HEADING_8}</h5>
@@ -224,7 +224,7 @@
         <!--   1.  Varjo VR-3    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon31.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_1}</h5>
@@ -237,7 +237,7 @@
         <!--  2.  Meta Quest 2 / Pico Neo 3   -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon32.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_2}</h5>
@@ -250,7 +250,7 @@
         <!--  3.  Insta360 Pro 2    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon33.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_3}</h5>
@@ -263,7 +263,7 @@
         <!--  4.  Phones / Tablets    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon34.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_4}</h5>
@@ -276,7 +276,7 @@
         <!--  5.  HTC Vive Pro 2 / Focus    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon35.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_5}</h5>
@@ -289,7 +289,7 @@
         <!--   6.  DRONES    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon36.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_6}</h5>
@@ -302,7 +302,7 @@
         <!--   7.  Looking Glass Holograms    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon37.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_7}</h5>
@@ -315,7 +315,7 @@
         <!--  8.  Immersive Rooms / Domes    -->
 
         <div class="card-container col-6 col-sm-6 col-xl-3">
-          <div class="card">
+          <div class="card h-100">
             <div class="card-body text-center">
               <img src="images/stack-image-icon38.png" alt="" class="img-fluid icon-image" />
               <h5 class="card-title">{HARDWARE_HEADING_8}</h5>
@@ -383,10 +383,7 @@
     margin-bottom: 20px;
   }
 
-  .main-text-post{
-    font-size: 30px;
-    line-height: 35px;
-  }
+
 
 }
 
@@ -401,10 +398,7 @@
     margin-bottom: 30px;
   }
 
-  .main-text-post{
-    font-size: 26px;
-    line-height: 27px;
-  }
+
 
 }
 
@@ -416,11 +410,6 @@
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 20px;
-  }
-  .main-text-post{
-    font-size: 22px;
-    line-height: 25px;
-    /*max-width: 456px;*/
   }
 
 }
@@ -442,11 +431,7 @@
     /* max-width: 360px;*/
   }
   
-  .main-text-post{
-    font-size: 18px;
-    line-height: 23px;
-    /*max-width: 456px;*/
-  }
+
 }
 
 /* 1) SMALL SIZE - TABLETS AND PHONES <767px*/
@@ -476,10 +461,6 @@
 
 
 
-  .main-text-post{
-    font-size: 18px;
-    line-height: 23px;
-  }
 
 }
 

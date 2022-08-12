@@ -1,7 +1,7 @@
 <!--SCRIPT-->
 <script>
     export let pipelinebannerData = {};
-      const { HEADING, DESCRIPTION} = pipelinebannerData;
+      const { HEADING, DESCRIPTION, IMG_SRC_H, IMG_SRC_V} = pipelinebannerData;
 </script>
     
 
@@ -22,8 +22,11 @@
         </div>
 
         <div id="image-content-wrapper" class="d-flex justify-content-center">
-            <img src="images/pipeline-image1.png" alt="" class="image1 img-fluid" />
-            <img src="images/pipeline-image1-mobile.png" alt="" class="image1mobile img-fluid" />
+            <!--<img src="images/pipeline-image1.png" alt="" class="image1 img-fluid" />-->
+
+            <img src={IMG_SRC_H} alt="" class="image1 img-fluid" />
+
+            <img src={IMG_SRC_V} alt="" class="image1mobile img-fluid" />
 
         </div>
 

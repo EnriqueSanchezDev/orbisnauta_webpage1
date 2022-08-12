@@ -115,6 +115,8 @@ const PIPELINEBANNER_DATA_ES = {
   //PREHEADING: "Industries Digital Experience Studio",
   HEADING: "Soluciones RV y AR llave en mano",
   DESCRIPTION: "Empezamos por evaluar tus necesidades y objetivos. Buscamos entender tu visión y tu marca para implementar una solución de XR que realmente agregue valor a tu empresa. Nos distinguimos por la flexibilidad, por eso ajustamos nuestros procesos de trabajo para que se ajuste mejor a sus requisitos. Las ideas estelares requieren excelencia en su implementación. Por lo tanto, utilizamos el desarrollo ágil para mejorar continuamente con el fin de alcanzar iterativamente la solución óptima.",
+  IMG_SRC_H: "images/pipeline-image1-es.png",
+  IMG_SRC_V: "images/pipeline-image1-mobile-es.png"
   //RECENT: "Industries Recent Completed XR Projects"
 }
 

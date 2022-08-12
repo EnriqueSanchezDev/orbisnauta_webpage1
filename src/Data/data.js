@@ -110,6 +110,8 @@ const PIPELINEBANNER_DATA = {
   //PREHEADING: "Industries Digital Experience Studio",
   HEADING: "Fully Turnkey VR & AR Solutions",
   DESCRIPTION: "We start by assessing your needs and objectives. We seek to understand your vision and your brand in order to implement an XR solution that truly adds value to your company. We distinct ourselves with flexibility, that is why we adjust our working processes so that it best fits your requirements. Stellar ideas require excellence in its implementation. Thus, we use agile development to improve continually in order to iteratively reach the optimal solution.",
+  IMG_SRC_H: "images/pipeline-image1.png",
+  IMG_SRC_V: "images/pipeline-image1-mobile.png"
   //RECENT: "Industries Recent Completed XR Projects"
 }
 
