@@ -57,6 +57,10 @@ p{
 .image1mobile{
     display: none;
 }
+
+.main-text-post{
+        text-align: justify;
+    }
         
 /* 5) ULTRA LARGE SIZE - ULTRA SCREENS >1921 */
 @media(min-width: 1921px){
@@ -155,6 +159,11 @@ p{
         margin-bottom: 30px;
     }
 
+    #title-content-wrapper{
+    text-align: center;
+    max-width: 500px;
+  }
+
     /*INSIDE TEXT
     .main-text-main{
         font-size: 42px;
@@ -166,8 +175,8 @@ p{
       .main-text-main{
         font-size: 35px;
         line-height: 42px;
-        max-width: 480px;
         margin-bottom: 10px;
+        max-width: 480px;
 
     
     }
@@ -176,6 +185,8 @@ p{
     .main-text-post{
         font-size: 18px;
         line-height: 23px;
+        max-width: 510px ;
+
         /*max-width: 510px;*/
     }
 

@@ -10,12 +10,12 @@ const MAINBANNER_DATA = {
     HEADING_1:"XR Solutions,",
     HEADING_2:"Experiential Communication",
     DESCRIPTION_1:"We build ",
-    DESCRIPTION_2_STRONG:"virtual ",
-    DESCRIPTION_3:"and ",
-    DESCRIPTION_4_STRONG:"augmented reality ",
-    DESCRIPTION_5:"content that adds ",
-    DESCRIPTION_6_STRONG:"real value ",
-    DESCRIPTION_7:"to your business, helping you communicate with your audience through unforgettable experiences while also modernizing workforce training and onboarding. From conception to production logistics to technical execution, we are experts in delivering virtual awe and wonder."
+    DESCRIPTION_2_STRONG:"virtual",
+    DESCRIPTION_3:" and ",
+    DESCRIPTION_4_STRONG:"augmented reality",
+    DESCRIPTION_5:" content that adds ",
+    DESCRIPTION_6_STRONG:"real value",
+    DESCRIPTION_7:" to your business, helping you communicate with your audience through unforgettable experiences while also modernizing workforce training and onboarding. From conception to production logistics to technical execution, we are experts in delivering virtual awe and wonder."
   }
 
 const SEOBANNER_DATA = {
@@ -26,7 +26,7 @@ const SEOBANNER_DATA = {
 }
 
 const INDUSTRIESBANNER_DATA = {
-  HEADING: "Sectors-specific benefits of VR and AR",
+  HEADING: "Sectors-specific Benefits of Virtual Reality (VR) and Augmented Reality (AR)",
   DESCRIPTION: "From strategy and concept design to development and implementation. Stay ahead of the curve transforming your business with the latest XR solutions.",
   INDUSTRY_1_TITLE: "Enterprise Exhibitions, Events and Advertising",
   INDUSTRY_1_1: "Experiential communication over photos and videos",
@@ -73,7 +73,7 @@ const INDUSTRIESBANNER_DATA = {
 
 const STACKBANNER_DATA = {
 
-  HEADING: "Our Stack and XR Technologies We Work With",
+  HEADING: "Stack and XR Technologies We Work With",
   DESCRIPTION: "Orbisnauta uses the latest VR technology for creating our apps to exceed our client's expectations. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nisi maiores vitae nobis! Fugit enim reprehenderit quod neque quidem possimus.   ",
   PLATFORMS_TITLE: "Platforms",
   PLATFORMS_HEADING_1: "VR Headsets",
@@ -99,7 +99,7 @@ const STACKBANNER_DATA = {
   HARDWARE_HEADING_1: "Varjo VR-3",
   HARDWARE_HEADING_2: "Meta Quest 2 / Pico Neo 3",
   HARDWARE_HEADING_3: "Insta360 Pro 2",
-  HARDWARE_HEADING_4: "Phones / Tablets",
+  HARDWARE_HEADING_4: "Phones / Tablet / TouchScreens",
   HARDWARE_HEADING_5: "HTC Vive Pro 2 / Focus",
   HARDWARE_HEADING_6: "Drones",
   HARDWARE_HEADING_7: "Looking Glass Holograms",
@@ -108,7 +108,7 @@ const STACKBANNER_DATA = {
 
 const PIPELINEBANNER_DATA = {
   //PREHEADING: "Industries Digital Experience Studio",
-  HEADING: "Fully Turnkey VR & AR Solutions",
+  HEADING: "Fully Turnkey VR and AR Solutions",
   DESCRIPTION: "We start by assessing your needs and objectives. We seek to understand your vision and your brand in order to implement an XR solution that truly adds value to your company. We distinct ourselves with flexibility, that is why we adjust our working processes so that it best fits your requirements. Stellar ideas require excellence in its implementation. Thus, we use agile development to improve continually in order to iteratively reach the optimal solution.",
   IMG_SRC_H: "images/pipeline-image1.png",
   IMG_SRC_V: "images/pipeline-image1-mobile.png"
@@ -117,7 +117,7 @@ const PIPELINEBANNER_DATA = {
 
 const SERVICESBANNER_DATA = {
   //PREHEADING: "Industries Digital Experience Studio",
-  HEADING: "What Services We Can Do For You",
+  HEADING: "Services We Can Do For You",
 
   SERVICES_HEADING_1: "Full Stack VR Development",
   SERVICES_TITLE_1_1: "VR Strategy, Consulting and Design.",
@@ -126,7 +126,9 @@ const SERVICESBANNER_DATA = {
   //SERVICES_DESCRIPTION_1_2: "1_2222 It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the, though the transition does limit overflow.",
   SERVICES_TITLE_1_3: "Immersive Hardware Installation and Facilitation.",
   //SERVICES_DESCRIPTION_1_3: "1_33333 It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the, though the transition does limit overflow.",
-  SERVICES_TITLE_1_4: "Metaverse Consultancy, Land Brokers and Experience Builders.",
+  //SERVICES_TITLE_1_4: "Metaverse Consultancy, Land Brokers and Experience Builders.",
+  SERVICES_TITLE_1_4: "Digital and Innovation Consultancy.",
+  SERVICES_TITLE_1_5: "Metaverse Experience Builders and Virtual Land Brokers.",
   //SERVICES_DESCRIPTION_1_4: "1_33333 It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the, though the transition does limit overflow.",
 
 
@@ -159,8 +161,11 @@ const SERVICESBANNER_DATA = {
 
 const CTABANNER_DATA = {
   
-  HEADING: "Start A Project With Us",
-  DESCRIPTION: "Tell us more about your business needs, we'll help you build world class immersive experiences without breaking the bank.”",
+
+  HEADING: "Start A Project With Us!",
+  DESCRIPTION: "Tell us more about your business needs, we'll help you build world class immersive experiences without breaking the bank.",
+
+
   FORM_EMAIL: "Email Address:",
   FORM_EMAIL_PLACEHOLDER: "e.g. me@example.com",
   FORM_NAME: "Full Name:",

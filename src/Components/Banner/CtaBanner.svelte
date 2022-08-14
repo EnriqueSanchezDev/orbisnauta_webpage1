@@ -19,7 +19,8 @@
 
       <div id="title-content-wrapper" class="col-md-7 col-xl-9">
         <h1 class="main-text-main text-light">
-            <u>{HEADING}</u>
+            <!--<u>{HEADING}</u>-->
+            {HEADING}
 
         </h1>
       
@@ -120,7 +121,12 @@ p{
 .container-fluid{
     margin-top: 40px;
     margin-bottom: 60px;
+    
   }
+
+  .main-text-post{
+        text-align: justify;
+    }
 
 
 /* 5) ULTRA LARGE SIZE - ULTRA SCREENS >1921 */
@@ -137,11 +143,13 @@ p{
   .main-text-post{
     font-size: 30px;
     line-height: 35px;
+    text-align: center;
   }
 
+  /*
   h1{
     text-underline-offset: 6px;
-  }
+  }*/
 
 }
 
@@ -151,7 +159,7 @@ p{
   /*INSIDE TEXT*/
   .main-text-main{
     font-size: 76px;
-    line-height: 60px;
+    line-height: 70px;
     margin-bottom: 40px;
   }
 
@@ -160,9 +168,10 @@ p{
     line-height: 27px;
   }
 
+  /*
   h1{
     text-underline-offset: 5px;
-  }
+  }*/
 
 }
 
@@ -181,9 +190,10 @@ p{
     /*max-width: 456px;*/
   }
 
+  /*
   h1{
     text-underline-offset: 4px;
-  }
+  }*/
 
 }
 
@@ -210,9 +220,10 @@ p{
     /*max-width: 456px;*/
   }
 
+  /*
   h1{
     text-underline-offset: 2px;
-  }
+  }*/
 
 }
 
@@ -224,6 +235,11 @@ p{
     width: 90%;
     max-width: 1000px;
     margin-bottom: 30px;
+  }
+
+  #title-content-wrapper{
+    text-align: center;
+    max-width: 500px;
   }
 
   /*INSIDE TEXT
@@ -238,23 +254,23 @@ p{
    .main-text-main{
         font-size: 35px;
         line-height: 42px;
-        max-width: 480px;
         margin-bottom: 10px;
-
+        max-width: 480px;
     
     }
 
 
-  
   .main-text-post{
     font-size: 18px;
     line-height: 23px;
+    max-width: 510px ;
     /*max-width: 510px;*/
   }
 
+  /*
   h1{
     text-underline-offset: 2px;
-  }
+  }*/
 
 }
 

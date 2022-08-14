@@ -444,6 +444,12 @@
     margin-bottom: 30px;
   }
 
+  #title-content-wrapper{
+    text-align: center;
+    max-width: 500px;
+  }
+
+
   /*INSIDE TEXT
   .main-text-main{
     font-size: 42px;
@@ -456,6 +462,7 @@
         font-size: 35px;
         line-height: 42px;
         max-width: 480px;
+
         margin-bottom: 10px;
     }
 
@@ -478,7 +485,10 @@
     }
 
 
-  
+  #title-content-wrapper{
+    text-align: center;
+    max-width: 500px;
+  }
 
   .card-title{
   font-size: 15px;

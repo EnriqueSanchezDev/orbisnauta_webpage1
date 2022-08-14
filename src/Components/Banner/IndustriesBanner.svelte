@@ -67,7 +67,7 @@
     <div class="row justify-content-center">
 
       <div class="card-container col-sm-6 col-xl-4 col-xxl-3">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">
               <i class="bi bi-headset-vr"></i>
@@ -88,7 +88,7 @@
       </div>
 
       <div class="card-container col-sm-6 col-xl-4 col-xxl-3">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">
               <i class="bi bi-cone-striped"></i>
@@ -109,7 +109,7 @@
       </div>
 
       <div class="card-container col-sm-6 col-xl-4 col-xxl-3">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">
               <i class="bi bi-palette-fill"></i>
@@ -131,7 +131,7 @@
 
       
       <div class="card-container col-sm-6 col-xl-4 col-xxl-3">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">
               <i class="bi bi-lightbulb"></i>
@@ -152,7 +152,7 @@
       </div>
 
       <div class="card-container col-sm-6 col-xl-4 col-xxl-3">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">
               <i class="bi bi-heart-pulse-fill"></i>
@@ -173,7 +173,7 @@
       </div>
 
       <div class="card-container col-sm-6 col-xl-4 col-xxl-3">
-        <div class="card">
+        <div class="card h-100">
           <div class="card-body">
             <h5 class="card-title">
               <i class="bi bi-building"></i>
@@ -227,6 +227,10 @@ p{
     margin-top: 40px;
     margin-bottom: 60px;
   }
+
+.main-text-post{
+      text-align: justify;
+}
 
 
 /* 5) ULTRA LARGE SIZE - ULTRA SCREENS >1921 */
@@ -326,7 +330,7 @@ p{
 
   #title-content-wrapper{
     text-align: center;
-
+    max-width: 500px;
   }
 
 
@@ -334,7 +338,7 @@ p{
 .main-text-main{
     font-size: 35px;
     line-height: 42px;
-
+    max-width: 480px;
     margin-bottom: 10px;
 
 }
@@ -344,6 +348,7 @@ p{
   .main-text-post{
     font-size: 18px;
     line-height: 23px;
+    max-width: 510px ;
     /*max-width: 510px;*/
   }
 

@@ -12,36 +12,34 @@
 
 </header>
 
-<nav class="navbar sticky-top navbar-expand navbar-light bg-light">
- 
-  <div id="navcontainer" class="container">
+  <nav class="navbar sticky-top navbar-expand navbar-light bg-white">
 
-    <a href="/" class="navbar-brand">
-      <img src="images/virtual_reality_ development_agency_orbisnauta_logo.png" class="img-fluid" alt="" />
-    </a>
+    <div id="navcontainer" class="container">
+        <a href="/es"  class="navbar-brand">
+          <img src="images/virtual_reality_ development_agency_orbisnauta_logo.png" class="img-fluid"  alt="" />
+        </a>
 
-    <div class="collapse navbar-collapse d-flex flex-row-reverse px-3" id="navbarText">
-      <ul class="navbar-nav mr-auto ">
+      <div class="collapse navbar-collapse d-flex flex-row-reverse px-3" id="navbarText">
+        <ul class="navbar-nav mr-auto">
 
-        <li class="nav-item ">
-          <a class="nav-link fw-bold" href="/es">ESP</a>
-        </li>
-      
-      <!--
-        <li class="nav-item">
-          <a class="nav-link" href="/">ENG</a>
-        </li>
-      -->
+          <!--
+          <li class="nav-item ">
+            <a class="nav-link " href="/es">ESP</a>
+          </li>
+          -->
+          
+          <li class="nav-item">
+            <a class="nav-link fw-bold " href="/">ENG</a>
+          </li>
+          
 
-        <li class="nav-item ">
-          <a class="nav-link fw-bold" href="/contact">Contact</a>
-        </li>
-
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="/contact_es">Contacto</a>
+          </li>
+        </div>
     </div>
 
-  </div>
-
-</nav>
+  </nav>
 
 <main>
 
@@ -111,9 +109,11 @@ color:rgb(156, 156, 156);
 }
 
 
+
 #navcontainer{
 max-width: 1840px;
 }
+
 
 p{
 text-align: center;
@@ -141,6 +141,8 @@ img{
 li{
   list-style: none;
 }
+
+
 
 .footer-basic {
   padding:20px 0;

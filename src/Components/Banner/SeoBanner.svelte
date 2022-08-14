@@ -14,7 +14,7 @@
                 </div>
             </div>
 
-            <div id="text-content-wrapper" class="col-md-6">
+            <div id="text-content-wrapper" class="col-md-6 col-12 text-left">
 
                 <p class="main-text-sub text-primary mb-0">
                     {PREHEADING}
@@ -54,23 +54,30 @@
         flex-wrap: wrap;
     }
 
-    #text-content-wrapper{
-        align-self: center;
-    }
-
     #image-content-wrapper{
         margin: auto;
         padding-right: 60px;
     }
 
+    .main-text-post{
+        text-align: justify;
+    }
+
+    /*
+    #text-content-wrapper{
+        align-self: center;
+    }*/
+
+
+    /*
     .justify-content-center{
-        /*background-color: black;*/
+        /*background-color: black;
 
     }
 
     img{
         
-    }
+    }*/
 
 /* 5) ULTRA LARGE SIZE - ULTRA SCREENS >1921 */
 @media(min-width: 1921px){
@@ -214,7 +221,7 @@
     /* CONTAINER */
     .container-fluid {
         width: 90%;
-        max-width: 600px;
+        max-width: 500px;
     }
 
     /*INSIDE TEXT
@@ -231,9 +238,8 @@
     .main-text-main{
         font-size: 35px;
         line-height: 42px;
-        max-width: 480px;
         margin-bottom: 10px;
-
+        max-width: 480px;
     
     }
 
@@ -245,6 +251,8 @@
         font-size: 18px;
         line-height: 23px;
         max-width: 510px ;
+        
+        /*max-width: 510px ;*/
     }
 }
 </style>

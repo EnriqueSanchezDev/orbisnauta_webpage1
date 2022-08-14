@@ -12,6 +12,7 @@
     //SERVICES_DESCRIPTION_1_3,
     SERVICES_TITLE_1_4,
     //SERVICES_DESCRIPTION_1_4,
+    SERVICES_TITLE_1_5,
 
     SERVICES_HEADING_2,
     SERVICES_TITLE_2_1,
@@ -60,6 +61,7 @@
                 <li>  {SERVICES_TITLE_1_2}  </li>
                 <li>  {SERVICES_TITLE_1_3} </li>
                 <li>  {SERVICES_TITLE_1_4}  </li>
+                <li>  {SERVICES_TITLE_1_5}  </li>
               </ul>
             </div>
 
@@ -253,12 +255,17 @@ padding-top: 10px;
         margin-bottom: 30px;
     }
 
+    #title-content-wrapper{
+    text-align: center;
+    max-width: 500px;
+  }
+
     /*INSIDE TEXT*/
     .main-text-main{
         font-size: 42px;
         line-height: 51px;
         margin-bottom: 5px;
-        
+        max-width: 480px;
     }
     
     /*ACTUAL BULLET POINTS*/

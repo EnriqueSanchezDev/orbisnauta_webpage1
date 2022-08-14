@@ -10,7 +10,7 @@ export let mainbannerData_Esp = {};
 
 </script>
 
-  <section id="mainbanner" class="bg-light d-flex align-items-center">
+  <section id="mainbanner" class="bg-white d-flex align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-center">
 
@@ -55,6 +55,10 @@ export let mainbannerData_Esp = {};
 
     p{
         flex-wrap: wrap;
+    }
+
+    .main-text-post{
+        text-align: justify;
     }
 
      /* 5) ULTRA LARGE SIZE - ULTRA SCREENS >1921 */
